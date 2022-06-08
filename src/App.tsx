@@ -5,7 +5,6 @@ import { WeatherModel } from './model/Weather'
 import InputSearch from './components/InputSearch'
 import WeatherDetails from './components/WeatherDetails'
 
-
 function App() {
   const WEATHER_API_KEY = '6a910da90c54084870c2c32f95d9ac38'
   const weatherType = {

@@ -1,4 +1,10 @@
-const WeatherDetails = (props) => {
+import { WeatherModel } from "../model/Weather"
+
+interface ComponentProps {
+  weather: WeatherModel
+}
+
+const WeatherDetails = (props: ComponentProps) => {
   return (
     <div className="weather-details">
       <div className="">
@@ -27,7 +33,6 @@ const WeatherDetails = (props) => {
       </div>
     </div>
   )
-  
 }
 
 export default WeatherDetails
